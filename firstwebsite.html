@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anil fitness</title>
+    <style>
+        body{
+            
+            
+            margin: 0px;
+            padding: 0px;
+           background: url('img/bg1.jpg');
+            background-size: cover;
+            background-position: center
+            ;
+            background-repeat: no-repeat;
+            
+            
+        }
+        .left{
+            display: inline-block;
+            font-family: sans-serif;
+            
+            
+            position: absolute;
+            top: 2px;
+            left: 34px;
+
+        }
+        .left img{
+            width: 43px;
+            
+            
+        }
+        .left div{
+            text-align: center;
+        }
+        .right{
+            position: absolute;
+            top: 2px;
+            right: 34px;
+         
+
+        }
+        .btn{
+            margin: 3px;
+            padding: 3px 5px;
+            
+            border-radius: 6px;
+            background-color:rgb(179, 158, 106);
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: coral;
+        }
+        
+        .center{
+            display: block;
+            margin:  12px auto;
+            width: 633px;
+            
+            font-size: 23px;
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+         
+        }
+        .navbar li a{
+            text-decoration:none ;
+            padding: 13px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: black;
+        }
+        .container{
+           
+            margin: 32px;
+            padding: 52px;
+            width: 344px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header class= "header">
+        <div class="left">
+            <img src="img/69966.png" alt="">
+            <div><strong>Anil fitness</strong> </div>
+
+        </div>
+        <div class="center"> 
+            <ul class="navbar">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Fitness calculator</a></li>
+            <li><a href=""> contact us</a></li>  </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us Now</button>
+            <button class="btn"> Email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h2>Join the best gym in delhi Now</h2>
+    <form action="noaction.php">
+        <div class="form-group" style="margin: 3px;"> 
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="class-gorup"style="margin: 3px;" >
+            <input type="text" placeholder="Enter your age">
+        </div>
+        <div class="class-gorupstyle="margin: 3px;"" >
+            <input type="text" placeholder="Enter your Gender">
+        </div>
+        <div class="class-gorup"style="margin: 3px;" >
+            <input type="text" placeholder="Enter your locality">
+        </div>
+        <button class="btn"> Submit</button>
+    </form>
+    </div>
+</body>
+</html>
